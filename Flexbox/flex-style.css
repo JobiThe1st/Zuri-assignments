@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(243, 243, 243) ;
+}
+
+main{
+    width:50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+ 
+}
+
+.left{
+    background-color: rgb(218, 126, 12);
+    color: azure;
+    padding: 2em;
+    width: 1440px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.middle{
+    background-color: rgb(31, 110, 114);
+    padding: 2em;
+    color: azure;
+    width: 1440px;
+}
+
+.right{
+    background-color: rgb(16, 65, 67);
+    color: azure;
+    padding: 2em;
+    width: 1440px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.space-1{
+    margin-top: 80px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    color: rgb(218, 126, 12);
+}
+
+.space-2{
+    margin-top: 80px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    color: rgb(31, 110, 114);
+}
+
+.space-3{
+    margin-top: 80px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    color: rgb(16, 65, 67);
+}
+
+.font-p{
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 400;
+}
+
+.font-h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+
+.img-space{
+    margin-bottom: 30px;
+}
